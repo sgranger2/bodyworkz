@@ -1,0 +1,174 @@
+@font-face {
+  font-family: "Brux";
+  src: url(brux.ttf) format("truetype");
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  background-image: linear-gradient(to top, rgba(212, 50, 50, 0.01),rgba(0, 0, 0, 0.6)), url('gym.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  font-family: "Helvetica Neue";
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 75%;
+  margin: 0 auto;
+  height: 100px;
+}
+
+nav h3 {
+  font-family: "Brux";
+  margin: 0;
+  margin-left: 10px;
+  margin-bottom: 15px;
+  color: #e67e22;
+}
+
+nav div {
+  display: flex;
+  flex-direction: row;
+}
+
+nav div p {
+  margin: 0;
+  margin-left: 80px;
+  font-family: "Helvetica Neue";
+  font-size: 1.3rem;
+  transition: 0.2s all;
+}
+
+nav div p:hover {
+  color: #e67e22;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+nav ul li {
+  font-family: "Helvetica Neue";
+  font-size: 1.3rem;
+  margin-right: 25px;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 5px;
+  transition: 0.2s all;
+  cursor: pointer;
+  text-shadow: 3px 3px 5px #282c34;
+}
+
+nav ul li:hover {
+  /* border-bottom: 2px #e67e22 solid; */
+  color: #e67e22;
+}
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 32px;
+  height: 26px;
+  right: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #eee;
+}
+
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #e67e22;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button{
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #e67e22;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  color: #ccc;
+}
+
+.bm-item:hover {
+  color: #e67e22;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.header-hook {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size: calc(17px + 2vmin);
+  line-height: 150%;
+  font-family: "Brux";
+  width: 40%;
+  align-self: center;
+  /* margin-left: 12.5%; */
+  text-shadow: 5px 5px 7px #282c34;
+}
+
+.header-bottom {
+  align-self: flex-end;
+  /* margin-right: 12.5%; */
+  width: 40%;
+  font-size: calc(4px + 2vmin);
+  color: #e67e22;
+  font-family: "Brux";
+}
