@@ -16,19 +16,19 @@ self.__precacheManifest = [
     "url": "/bodyworkz/static/js/runtime~main.d59ec4ec.js"
   },
   {
-    "revision": "800679b4cbb58d8fa687",
-    "url": "/bodyworkz/static/js/main.800679b4.chunk.js"
+    "revision": "ce314c55033fefaea63b",
+    "url": "/bodyworkz/static/js/main.ce314c55.chunk.js"
   },
   {
     "revision": "e73bbedd0c6746eca063",
     "url": "/bodyworkz/static/js/1.e73bbedd.chunk.js"
   },
   {
-    "revision": "800679b4cbb58d8fa687",
-    "url": "/bodyworkz/static/css/main.62664fcd.chunk.css"
+    "revision": "ce314c55033fefaea63b",
+    "url": "/bodyworkz/static/css/main.8ebde0c8.chunk.css"
   },
   {
-    "revision": "d62cb60f8c99be35fa0f84d8a2fb8dc3",
+    "revision": "016e265294d466d4de9707917fe23ee7",
     "url": "/bodyworkz/index.html"
   }
 ];
