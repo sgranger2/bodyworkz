@@ -28,7 +28,7 @@ self.__precacheManifest = [
     "url": "/bodyworkz/static/css/main.8ebde0c8.chunk.css"
   },
   {
-    "revision": "016e265294d466d4de9707917fe23ee7",
+    "revision": "7a9a80141e3173a94dd28a8580dd2abe",
     "url": "/bodyworkz/index.html"
   }
 ];
