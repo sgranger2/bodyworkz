@@ -21,7 +21,7 @@ class Landing extends React.Component {
                 </div>
             </nav>
             <div className="header-hook">
-                <p>A Welcome Experience For the Novice and Skilled Athlete alike</p>
+                <p>Helping You become your best self</p>
             </div>
             <div className="header-bottom">
                 <p>Orange and Bridge City</p>

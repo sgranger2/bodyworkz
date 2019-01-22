@@ -155,7 +155,7 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .header-hook {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: calc(17px + 2vmin);
+  font-size: calc(28px + 2vmin);
   line-height: 150%;
   font-family: "Brux";
   width: 40%;
