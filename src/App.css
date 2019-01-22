@@ -160,13 +160,35 @@ Note: Beware of modifying this element as it can break the animations - you shou
 .header-hook {
   text-transform: uppercase;
   font-weight: 300;
-  font-size: calc(28px + 2vmin);
+  font-size: calc(20px + 2vmin);
   line-height: 150%;
   font-family: "Brux";
-  width: 40%;
+  width: 35%;
   align-self: center;
-  /* margin-left: 12.5%; */
+  margin-top: 50px;
   text-shadow: 5px 5px 7px #282c34;
+}
+
+.header-hook p {
+  margin-bottom: 0;
+}
+
+.header-hook div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.header-hook .emphasis {
+  font-size: calc(55px + 2vmin);
+  color: #e67e22;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+.header-hook .emphasis:nth-child(1) {
+  margin-right: 10px;
 }
 
 .header-bottom {
