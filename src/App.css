@@ -141,10 +141,15 @@ Note: Beware of modifying this element as it can break the animations - you shou
   display: inline-block;
   text-decoration: none;
   color: #ccc;
+  margin-bottom: 20px;
 }
 
 .bm-item:hover {
   color: #e67e22;
+}
+
+.bm-item:focus {
+  outline: none;
 }
 
 /* Styling of overlay */

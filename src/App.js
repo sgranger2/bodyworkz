@@ -14,7 +14,10 @@ class App extends Component {
     return (
       <div className="App">
         <Menu right>
-          <a onClick={this.showSettings} className="menu-item--small" href="/">Settings</a>
+          <a onClick={this.showSettings} className="menu-item--small" href="/">Group Fitness</a>
+          <a onClick={this.showSettings} className="menu-item--small" href="/">Instructors</a>
+          <a onClick={this.showSettings} className="menu-item--small" href="/">Amenities</a>
+          <a onClick={this.showSettings} className="menu-item--small" href="/">Perks & News</a>
         </Menu>
         <Landing />
       </div>
