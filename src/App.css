@@ -166,9 +166,9 @@ Note: Beware of modifying this element as it can break the animations - you shou
 
 .header-bottom {
   align-self: flex-end;
-  /* margin-right: 12.5%; */
   width: 40%;
   font-size: calc(4px + 2vmin);
   color: #e67e22;
   font-family: "Brux";
+  text-shadow: 4px 4px 7px #282c34;
 }
